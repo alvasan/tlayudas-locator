@@ -90,6 +90,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         final LatLng azalea = new LatLng(16.4293249,-95.0186752);
         final LatLng zapandu = new LatLng(16.4388612,-95.0128115);
         final LatLng chinito = new LatLng(16.4383301,-95.0152257);
+        final LatLng comixcal = new LatLng(19.4484386,-99.1585572);
 
         mMap.addMarker(new MarkerOptions().position(Slim).title("Tlayudas slim").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
         mMap.addMarker(new MarkerOptions().position(laParrilla).title("La Parrilla").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
@@ -97,6 +98,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(azalea).title("Tlayudas tía azalea").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions().position(zapandu).title("Tlayudas cuatro ingredientes").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
         mMap.addMarker(new MarkerOptions().position(chinito).title("Tlayudas el chinito").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
+        mMap.addMarker(new MarkerOptions().position(comixcal).title("Tlayudas comixcal").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Slim));
 
     }
